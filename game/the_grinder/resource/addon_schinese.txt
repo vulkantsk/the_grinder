@@ -1,0 +1,77 @@
+"lang"
+{
+        "Language"                "schinese"
+        "Tokens"
+        {                
+//Dragon knight 
+                "DOTA_Tooltip_ability_ability_elder_dragon_form"                                                  "古龙形态"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_Description"                              "龙骑士能够变身成为三种古龙形态之一，同时提升移动速度以及神龙摆尾的施法距离，并且获得新的能力。\n<font color=\"#9acd32\">等级1 碧龙</font> - 腐蚀吐息：攻击时附带毒素，造成每秒%corrosive_breath_damage%点伤害，持续%corrosive_breath_duration%秒。\n<font color=\"#ff0000\">等级2 赤龙</font> - 溅射攻击：攻击时%splash_damage_percent%%%伤害将溅射到%splash_radius%范围内所有单位，并且全部受到腐蚀吐息的作用。\n<font color=\"#87ceeb\">等级3 苍龙</font> - 冰霜吐息：降低攻击溅射到的敌人%frost_bonus_movement_speed%%%移动速度和%frost_bonus_attack_speed%攻击速度，持续%frost_duration%秒，并且全部受到腐蚀吐息的作用。"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_shard_description"        "使古龙形态获得火球技能。"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_scepter_description"      "提升龙骑士的终极技能等级。增加第4级，黑龙。提升腐蚀伤害、溅射伤害和减速效果。另外提升魔法抗性，并且移动无视地形。"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_Lore"                                             "达维安体内有一个更为强大的形态正在休眠，一个将骑士之力和古龙之威完美结合的形态。"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_Note0"                                    "腐蚀吐息的毒素伤害可以致死。"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_Note1"                                    "近战或远程物品的冷却时间不同时将根据龙骑士在使用物品时处于远程或近战形态而定。"
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_duration"                                 "持续时间："
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_bonus_movement_speed"             "移动速度提升："
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_bonus_attack_range"               "额外攻击距离："
+                "DOTA_Tooltip_ability_ability_elder_dragon_form_abilitydraft_note"                "火球技能仅在古龙形态下可用。"
+
+//Phantom Assassin(Special hero)
+
+                "npc_dota_hero_phantom_assassin"                        "幻影刺客"
+
+                "DOTA_Tooltip_ability_imba_phantom_assassin_triple_blow"                        "三连击"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_triple_blow_Description"            "利用杀手的技能，进行一系列的闪电攻击!"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_triple_blow_max_hits"               "攻击次数:"
+
+                "DOTA_Tooltip_ability_phantom_assassin_adrenaline"                        "肾上腺素"
+                "DOTA_Tooltip_ability_phantom_assassin_adrenaline_Description"            "感受到肾上腺素的激增，加快了攻击和移动的速度! "
+                "DOTA_Tooltip_ability_phantom_assassin_adrenaline_duration"               "持续时间:"
+                "DOTA_Tooltip_ability_phantom_assassin_adrenaline_ms_bonus"               "%额外移速:"
+                "DOTA_Tooltip_ability_phantom_assassin_adrenaline_as_bonus"               "%额外攻速:"
+
+                "DOTA_Tooltip_ability_phantom_assassin_blur_custom"                        "模糊"
+                "DOTA_Tooltip_ability_phantom_assassin_blur_custom_Description"            "幻影刺客专注于内心，提高了她躲避敌人攻击的能力."
+                "DOTA_Tooltip_ability_phantom_assassin_blur_custom_bonus_evasion"          "%闪避:"
+
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger"                        "窒息之匕"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_Description"            "向敌人投掷匕首，当匕首连接时以额外伤害攻击敌人。窒息匕首可以触发任何命中效果，如暴击、猛击或溅射."       
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_Lore"                   "面纱修女们学到的第一项技能通常预示着即将到来的打击."
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_move_slow"              "%移速减缓:"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_slow_duration"          "减速持续时间:"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_bonus_damage"           "匕首伤害:"
+//              "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_aghanim_description"    "莫特雷德在第一把匕首之后再投掷3把匕首；这些匕首攻击范围内的任意敌人，但不能多次击中同一目标，除非该区域内的敌人少于匕首."
+                "DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_cast_range"             "范围:"
+
+                "DOTA_Tooltip_modifier_imba_stifling_dagger_slow"                                   "窒息之匕"
+                "DOTA_Tooltip_modifier_imba_stifling_dagger_slow_Description"                       "降低敌人移速并给予敌人视野"
+
+                "DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace"                          "恩赐解脱"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_Description"              "幻影刺客提高了她的战斗能力，有机会对敌人单位进行毁灭性的致命一击.\n<font color='#FF7800'>死亡之舞:</font> 每次致命一击后，倍数增加!"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_Lore"                     "一次神圣的打击, 莫特雷德选择死神以致敬敌人."
+                "DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_crit_bonus"               "%致命一击伤害:"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_crit_chance"              "%致命一击概率:"
+                "DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_crit_increase_mult"          "%倍数增加:"
+
+                "DOTA_Tooltip_modifier_imba_coup_de_grace"                           "死亡之舞"
+                "DOTA_Tooltip_modifier_imba_coup_de_grace_Description"               "增加恩赐解脱暴击倍率."
+
+        
+                "DOTA_Tooltip_ability_phantom_assassin_death_rush"                        "死亡冲刺"
+                "DOTA_Tooltip_ability_phantom_assassin_death_rush_Description"            "使用黑暗魔法，英雄获得巨大的力量，但在死亡的边缘却不会死！效果结束后，英雄死亡. "
+                "DOTA_Tooltip_ability_phantom_assassin_death_rush_duration"               "持续时间:"
+                "DOTA_Tooltip_ability_phantom_assassin_death_rush_ms_bonus"               "移动速度加成:"
+                "DOTA_Tooltip_ability_phantom_assassin_death_rush_as_bonus"               "攻击速度加成:"
+                "DOTA_Tooltip_ability_phantom_assassin_death_rush_dmg_bonus"              "伤害加成:"
+                "DOTA_Tooltip_modifier_phantom_death_rush"                           "死亡冲刺"
+                "DOTA_Tooltip_modifier_phantom_death_rush_Description"               "杀 杀 杀"
+                
+ //items
+                "DOTA_Tooltip_Ability_"                                                 "名称"
+                "DOTA_Tooltip_ability__Description"                                     "描述"
+                "DOTA_Tooltip_ability__"                                ":"
+                "DOTA_Tooltip_modifier_"                                "名称"
+                "DOTA_Tooltip_modifier__Description"                    "描述"
+     
+                }
+}

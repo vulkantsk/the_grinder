@@ -1,0 +1,116 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+	"Version"		"1"
+
+
+	"imba_phantom_assassin_stifling_dagger"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_datadriven"
+//		"ScriptFile"					"heroes/hero_phantom_assassin/stifling_dagger"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityTextureName"			"phantom_assassin/stifling_dagger"
+		"MaxLevel"						"24"
+		"LevelsBetweenUpgrades"			"3"
+		"RequiredLevel"					"1"
+
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_phantom_assassin.vsndevts"
+			"particle"					"particles/units/heroes/hero_phantom_assassin/phantom_assassin_stifling_dagger.vpcf"
+			"particle"					"particles/units/heroes/hero_phantom_assassin/phantom_assassin_stifling_dagger_debuff.vpcf"
+			"particle"					"particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact.vpcf"
+		}
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.3"
+
+		// Time
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"4"
+		"AbilityDuration"				"2.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_slow"				"-50"
+			}
+
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"dagger_speed"			"1400"
+			}
+
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slow_duration"			"1.5"
+			}
+
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"silence_duration"		"0.1"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"25 75 125 200 300 450 550 800 1200 1600 2000 2400 3000 3600 4200 5000 7500 11000 13000 15000 17000 20000 25000 35000"
+			}
+
+
+			"06"
+			{
+				"var_type"				    "FIELD_INTEGER"
+				"damage_pct"			"50 75 100 125 150 175 200 225 250 275 300 325 350 375 400 425 450 475 500 525 550 575 600 625"  			
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"dagger_vision"			"200 200 200 200 350 500 650"
+			}
+
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"scepter_dagger_count"	"3"
+			}
+
+			"09"
+			{
+				"var_type"				    "FIELD_INTEGER"
+				"scepter_knives_interval"	"0.3"
+			}
+
+			"10"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"cast_range"				"500"
+			}
+
+
+		}
+	}
+
+
+	
+}

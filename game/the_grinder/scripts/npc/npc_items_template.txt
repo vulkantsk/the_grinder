@@ -1,0 +1,1509 @@
+
+item_eee_1_1 = class(item_eee)
+item_eee_1_2 = class(item_eee)
+item_eee_1_3 = class(item_eee)
+item_eee_1_4 = class(item_eee)
+
+item_eee_2_1 = class(item_eee)
+item_eee_2_2 = class(item_eee)
+item_eee_2_3 = class(item_eee)
+item_eee_2_4 = class(item_eee)
+
+item_eee_3_1 = class(item_eee)
+item_eee_3_2 = class(item_eee)
+item_eee_3_3 = class(item_eee)
+item_eee_3_4 = class(item_eee)
+
+item_eee_4_1 = class(item_eee)
+item_eee_4_2 = class(item_eee)
+item_eee_4_3 = class(item_eee)
+item_eee_4_4 = class(item_eee)
+
+item_eee_5_1 = class(item_eee)
+item_eee_5_2 = class(item_eee)
+item_eee_5_3 = class(item_eee)
+item_eee_5_4 = class(item_eee)
+
+item_eee_6_1 = class(item_eee)
+item_eee_6_2 = class(item_eee)
+item_eee_6_3 = class(item_eee)
+item_eee_6_4 = class(item_eee)
+
+item_eee_7_1 = class(item_eee)
+item_eee_7_2 = class(item_eee)
+item_eee_7_3 = class(item_eee)
+item_eee_7_4 = class(item_eee)
+
+item_eee_8_1 = class(item_eee)
+item_eee_8_2 = class(item_eee)
+item_eee_8_3 = class(item_eee)
+item_eee_8_4 = class(item_eee)
+
+{
+	"item_recipe_value_1_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"10"
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_1_1"
+		"ItemRequirements"
+		{
+			"01"						"item_baseitem_4"
+		}
+	}
+	"item_value_1_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_1"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv1"
+			}
+		}
+	}
+	"item_recipe_value_1_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_1_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_1_1;item_scroll_1"
+		}
+	}
+	"item_value_1_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_1"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv1"
+			}
+		}
+	}
+	"item_recipe_value_1_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_1_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_1_2;item_scroll_1"
+		}
+	}
+	"item_value_1_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_1"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv1"
+			}
+		}
+	}
+	"item_recipe_value_1_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_1_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_1_3;item_scroll_1"
+		}
+	}
+	"item_value_1_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_1"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv1"
+			}
+		}
+	}
+	"item_recipe_value_2_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_2_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_1_4;item_powerup_1"
+		}
+	}
+	"item_value_2_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_2"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv2"
+			}
+		}
+	}
+	"item_recipe_value_2_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_2_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_2_1;item_scroll_2"
+		}
+	}
+	"item_value_2_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_2"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv2"
+			}
+		}
+	}
+	"item_recipe_value_2_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_2_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_2_2;item_scroll_2"
+		}
+	}
+	"item_value_2_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_2"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv2"
+			}
+		}
+	}
+	"item_recipe_value_2_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_2_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_2_3;item_scroll_2"
+		}
+	}
+	"item_value_2_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_2"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv2"
+			}
+		}
+	}
+	"item_recipe_value_3_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_3_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_2_4;item_powerup_2"
+		}
+	}
+	"item_value_3_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_3"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv3"
+			}
+		}
+	}
+	"item_recipe_value_3_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_3_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_3_1;item_scroll_3"
+		}
+	}
+	"item_value_3_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_3"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv3"
+			}
+		}
+	}
+	"item_recipe_value_3_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_3_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_3_2;item_scroll_3"
+		}
+	}
+	"item_value_3_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_3"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv3"
+			}
+		}
+	}
+	"item_recipe_value_3_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_3_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_3_3;item_scroll_3"
+		}
+	}
+	"item_value_3_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_3"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv3"
+			}
+		}
+	}
+	"item_recipe_value_4_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_4_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_3_4;item_powerup_3"
+		}
+	}
+	"item_value_4_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_4"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv4"
+			}
+		}
+	}
+	"item_recipe_value_4_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_4_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_4_1;item_scroll_4"
+		}
+	}
+	"item_value_4_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_4"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv4"
+			}
+		}
+	}
+	"item_recipe_value_4_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_4_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_4_2;item_scroll_4"
+		}
+	}
+	"item_value_4_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_4"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv4"
+			}
+		}
+	}
+	"item_recipe_value_4_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_4_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_4_3;item_scroll_4"
+		}
+	}
+	"item_value_4_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_4"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv4"
+			}
+		}
+	}
+	"item_recipe_value_5_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_5_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_4_4;item_powerup_4"
+		}
+	}
+	"item_value_5_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_5"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv5"
+			}
+		}
+	}
+	"item_recipe_value_5_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_5_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_5_1;item_scroll_5"
+		}
+	}
+	"item_value_5_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_5"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv5"
+			}
+		}
+	}
+	"item_recipe_value_5_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_5_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_5_2;item_scroll_5"
+		}
+	}
+	"item_value_5_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_5"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv5"
+			}
+		}
+	}
+	"item_recipe_value_5_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_5_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_5_3;item_scroll_5"
+		}
+	}
+	"item_value_5_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_5"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv5"
+			}
+		}
+	}
+	"item_recipe_value_6_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_6_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_5_4;item_powerup_5"
+		}
+	}
+	"item_value_6_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_6"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv6"
+			}
+		}
+	}
+	"item_recipe_value_6_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_6_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_6_1;item_scroll_6"
+		}
+	}
+	"item_value_6_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_6"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv6"
+			}
+		}
+	}
+	"item_recipe_value_6_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_6_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_6_2;item_scroll_6"
+		}
+	}
+	"item_value_6_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_6"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv6"
+			}
+		}
+	}
+	"item_recipe_value_6_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_6_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_6_3;item_scroll_6"
+		}
+	}
+	"item_value_6_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_6"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv6"
+			}
+		}
+	}
+	"item_recipe_value_7_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_7_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_6_4;item_powerup_6"
+		}
+	}
+	"item_value_7_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_7"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv7"
+			}
+		}
+	}
+	"item_recipe_value_7_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_7_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_7_1;item_scroll_7"
+		}
+	}
+	"item_value_7_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_7"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv7"
+			}
+		}
+	}
+	"item_recipe_value_7_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_7_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_7_2;item_scroll_7"
+		}
+	}
+	"item_value_7_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_7"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv7"
+			}
+		}
+	}
+	"item_recipe_value_7_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_7_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_7_3;item_scroll_7"
+		}
+	}
+	"item_value_7_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_7"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv7"
+			}
+		}
+	}
+	"item_recipe_value_8_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_8_1"
+		"ItemRequirements"
+		{
+			"01"						"item_value_7_4;item_powerup_7"
+		}
+	}
+	"item_value_8_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_8"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv8"
+			}
+		}
+	}
+	"item_recipe_value_8_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_8_2"
+		"ItemRequirements"
+		{
+			"01"						"item_value_8_1;item_scroll_8"
+		}
+	}
+	"item_value_8_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_8"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"2"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv8"
+			}
+		}
+	}
+	"item_recipe_value_8_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_8_3"
+		"ItemRequirements"
+		{
+			"01"						"item_value_8_2;item_scroll_8"
+		}
+	}
+	"item_value_8_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_8"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"3"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv8"
+			}
+		}
+	}
+	"item_recipe_value_8_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"item_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						""
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_value_8_4"
+		"ItemRequirements"
+		{
+			"01"						"item_value_8_3;item_scroll_8"
+		}
+	}
+	"item_value_8_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_value"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_value_8"
+
+		"ItemAliases"    				"value"
+		"MaxUpgradeLevel"				"4"
+		"ItemBaseLevel"					"4"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_value"			"kv8"
+			}
+		}
+	}
+}
+		
+		"DOTA_Tooltip_Ability_item_value_1"                         			"value tier1"
+		"DOTA_Tooltip_ability_item_value_1_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_2"                         			"value tier2"
+		"DOTA_Tooltip_ability_item_value_2_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_3"                         			"value tier3"
+		"DOTA_Tooltip_ability_item_value_3_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_4"                         			"value tier4"
+		"DOTA_Tooltip_ability_item_value_4_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_5"                         			"value tier5"
+		"DOTA_Tooltip_ability_item_value_5_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_6"                         			"value tier6"
+		"DOTA_Tooltip_ability_item_value_6_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_7"                         			"value tier7"
+		"DOTA_Tooltip_ability_item_value_7_Description"           				"www"
+		
+		"DOTA_Tooltip_Ability_item_value_8"                         			"value tier8"
+		"DOTA_Tooltip_ability_item_value_8_Description"           				"www"
+
+
+		"DOTA_Tooltip_Ability_item_value_1_1"                         			"value tier1"
+		"DOTA_Tooltip_ability_item_value_1_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_1_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_1_2"                         			"value tier1"
+		"DOTA_Tooltip_ability_item_value_1_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_1_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_1_3"                         			"value tier1"
+		"DOTA_Tooltip_ability_item_value_1_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_1_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_1_4"                         			"value tier1"
+		"DOTA_Tooltip_ability_item_value_1_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_1_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_2_1"                         			"value tier2"
+		"DOTA_Tooltip_ability_item_value_2_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_2_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_2_2"                         			"value tier2"
+		"DOTA_Tooltip_ability_item_value_2_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_2_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_2_3"                         			"value tier2"
+		"DOTA_Tooltip_ability_item_value_2_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_2_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_2_4"                         			"value tier2"
+		"DOTA_Tooltip_ability_item_value_2_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_2_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_3_1"                         			"value tier3"
+		"DOTA_Tooltip_ability_item_value_3_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_3_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_3_2"                         			"value tier3"
+		"DOTA_Tooltip_ability_item_value_3_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_3_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_3_3"                         			"value tier3"
+		"DOTA_Tooltip_ability_item_value_3_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_3_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_3_4"                         			"value tier3"
+		"DOTA_Tooltip_ability_item_value_3_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_3_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_4_1"                         			"value tier4"
+		"DOTA_Tooltip_ability_item_value_4_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_4_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_4_2"                         			"value tier4"
+		"DOTA_Tooltip_ability_item_value_4_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_4_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_4_3"                         			"value tier4"
+		"DOTA_Tooltip_ability_item_value_4_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_4_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_4_4"                         			"value tier4"
+		"DOTA_Tooltip_ability_item_value_4_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_4_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_5_1"                         			"value tier5"
+		"DOTA_Tooltip_ability_item_value_5_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_5_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_5_2"                         			"value tier5"
+		"DOTA_Tooltip_ability_item_value_5_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_5_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_5_3"                         			"value tier5"
+		"DOTA_Tooltip_ability_item_value_5_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_5_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_5_4"                         			"value tier5"
+		"DOTA_Tooltip_ability_item_value_5_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_5_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_6_1"                         			"value tier6"
+		"DOTA_Tooltip_ability_item_value_6_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_6_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_6_2"                         			"value tier6"
+		"DOTA_Tooltip_ability_item_value_6_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_6_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_6_3"                         			"value tier6"
+		"DOTA_Tooltip_ability_item_value_6_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_6_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_6_4"                         			"value tier6"
+		"DOTA_Tooltip_ability_item_value_6_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_6_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_7_1"                         			"value tier7"
+		"DOTA_Tooltip_ability_item_value_7_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_7_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_7_2"                         			"value tier7"
+		"DOTA_Tooltip_ability_item_value_7_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_7_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_7_3"                         			"value tier7"
+		"DOTA_Tooltip_ability_item_value_7_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_7_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_7_4"                         			"value tier7"
+		"DOTA_Tooltip_ability_item_value_7_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_7_4_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_8_1"                         			"value tier8"
+		"DOTA_Tooltip_ability_item_value_8_1_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_8_1_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_8_2"                         			"value tier8"
+		"DOTA_Tooltip_ability_item_value_8_2_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_8_2_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_8_3"                         			"value tier8"
+		"DOTA_Tooltip_ability_item_value_8_3_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_8_3_bonus_value"                        	"+$qqq"
+
+		"DOTA_Tooltip_Ability_item_value_8_4"                         			"value tier8"
+		"DOTA_Tooltip_ability_item_value_8_4_Description"           				"Bonus value"
+		"DOTA_Tooltip_ability_item_value_8_4_bonus_value"                        	"+$qqq"
+

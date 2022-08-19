@@ -1,0 +1,212 @@
+"dota_shops"
+{
+	"consumables"
+	{
+		"item"		"item_tpscroll"
+		"item"		"item_ward_observer"
+		
+	}
+
+	"attributes"
+	{
+		"item"		"item_damage_1_1"
+		"item"		"item_attackspeed_1_1"
+		"item"		"item_crit_1_1"
+		"item"		"item_desolator_1_1"
+		"item"		"item_bladestorm_1_1"
+		"item"		"item_battlefury_1_1"	
+	}
+
+	"weapons_armor"
+	{
+		"item"		"item_health_1_1"
+		"item"		"item_armor_1_1"
+		"item"		"item_ancient_shield_1_1"
+		"item"		"item_hero_armor_1_1"
+		"item"		"item_curtain_helm_1_1"
+		"item"		"item_hard_armor_1_1"
+
+	}
+			
+	"misc"
+	{
+		"item"		"item_scroll_1"
+		"item"		"item_scroll_2"
+		"item"		"item_scroll_3"
+		"item"		"item_scroll_4"
+		"item"		"item_scroll_5"
+		"item"		"item_scroll_6"
+		"item"		"item_scroll_7"
+		"item"		"item_scroll_8"
+
+		"item"		"item_powerup_1"
+		"item"		"item_powerup_2"
+		"item"		"item_powerup_3"
+		"item"		"item_powerup_4"
+		"item"		"item_powerup_5"
+		"item"		"item_powerup_6"
+		"item"		"item_powerup_7"
+		"item"		"item_powerup_8"
+
+	}
+	
+	// Level 1 - Green Recipes
+	"basics"
+	{
+
+	}
+
+	// Level 2 - Blue Recipes
+	"support"
+	{
+
+	}
+				
+	"magics"			
+	{
+		"item"		"item_imba_initiate_robe"
+		"item"		"item_glimmer_cape"
+		"item"		"item_cyclone"
+		"item"		"item_force_staff"
+		"item"		"item_imba_aether_lens"
+		"item"		"item_dagon"
+		"item"		"item_imba_veil_of_discord"
+		"item"		"item_meteor_hammer"
+		"item"		"item_imba_necronomicon"
+		"item"		"item_rod_of_atos"
+		//"item"		"item_imba_lotus_orb"
+		"item"		"item_imba_orchid"
+		"item"		"item_ethereal_blade"
+		"item"		"item_refresher"
+		"item"		"item_sheepstick"
+		"item"		"item_imba_octarine_core"
+		"item"		"item_imba_rapier_magic"
+	}
+		
+	// Level 3 - Purple Recipes	
+	"defense"
+	{
+		"item"		"item_imba_hood_of_defiance"
+		"item"		"item_shield_3"
+		"item"		"item_imba_vanguard_2"
+		"item"		"item_mail_3"
+		"item"		"item_armor_3"		
+		"item"		"item_imba_blade_mail"
+		"item"		"item_black_king_bar"
+		"item"		"item_imba_black_queen_cape"
+		"item"		"item_imba_assault"
+		"item"		"item_hurricane_pike"
+		"item"		"item_imba_shivas_guard"
+		"item"		"item_imba_manta"
+		"item"		"item_sphere"
+		"item"		"item_imba_bloodstone"
+		"item"		"item_heart"
+		"item"		"item_imba_angelic_alliance"
+		"item"		"item_imba_greatwyrm_plate"
+		"item"		"item_guardian_greaves"
+		"item"		"item_barbarian_helm_2"
+		"item"		"item_barbarian_armor_2"
+		"item"		"item_barbarian_shield_2"
+	}
+	
+	"weapons"
+	{
+		"item"		"item_dragon_lance"
+		"item"		"item_imba_lesser_crit"
+		"item"		"item_imba_armlet"
+		"item"		"item_imba_shadow_blade"
+		"item"		"item_imba_skull_basher"
+		"item"		"item_bfury"
+		"item"		"item_imba_silver_edge"
+		"item"		"item_imba_radiance"
+		"item"		"item_imba_monkey_king_bar"
+		"item"		"item_greater_crit"
+		"item"		"item_imba_butterfly"
+		"item"		"item_imba_abyssal_blade"
+		"item"		"item_imba_rapier"
+		"item"		"item_imba_starfury"
+	}
+
+	// Level 4 - Orange / Orb / Artifacts				
+	"artifacts"
+	{
+		"item"		"item_mask_of_madness_3"
+		"item"		"item_imba_sange"
+		"item"		"item_imba_yasha"
+		"item"		"item_imba_azura"
+		"item"		"item_imba_diffusal_blade"
+		"item"		"item_imba_echo_sabre"
+		"item"		"item_maelstrom"
+		"item"		"item_imba_heavens_halberd"
+		"item"		"item_imba_desolator"
+//		"item"		"item_imba_spell_fencer"
+		"item"		"item_imba_triumvirate"
+		"item"		"item_imba_mjollnir"
+		"item"		"item_satanic_3"
+		"item"		"item_lotus_orb"
+		"item"		"item_skadi"
+	
+	}
+
+	"sideshop1"
+	{
+		"item"		"item_imba_magic_stick"
+		"item"		"item_imba_stout_shield"
+		"item"		"item_sobi_mask"
+		"item"		"item_ring_of_regen"
+		"item"		"item_orb_of_venom"
+		"item"		"item_boots"
+		"item"		"item_cloak"
+		"item"		"item_ring_of_health"
+		"item"		"item_void_stone"
+		"item"		"item_lifesteal"
+		"item"		"item_helm_of_iron_will"
+		"item"		"item_energy_booster"
+		"item"		"item_imba_blink"
+	}
+
+	"sideshop2"
+	{
+		"item"		"item_slippers"
+		"item"		"item_quelling_blade"
+		"item"		"item_belt_of_strength"
+		"item"		"item_boots_of_elves"
+		"item"		"item_robe"
+		"item"		"item_blades_of_attack"
+		"item"		"item_gloves"
+		"item"		"item_chainmail"
+		"item"		"item_bottle"
+		"item"		"item_quarterstaff"
+		"item"		"item_vitality_booster"		
+		"item"		"item_broadsword"		
+	}
+	
+	"secretshop"
+	{
+		"item"		"item_energy_booster"
+		"item"		"item_vitality_booster"
+		"item"		"item_point_booster"
+		"item"		"item_talisman_of_evasion"
+		"item"		"item_hyperstone"
+		"item"		"item_ultimate_orb"
+		"item"		"item_demon_edge"
+		"item"		"item_mystic_staff"
+		"item"		"item_reaver"
+		"item"		"item_eagle"
+		"item"		"item_relic"
+		"item"		"item_imba_occult_mask"
+	}
+
+	"pregame"
+	{
+		"item"		"item_clarity"
+		"item"		"item_faerie_fire"
+		"item"		"item_enchanted_mango"
+		"item"		"item_ancient_tango_datadriven_1"
+		"item"		"item_shield"
+		"item"		"item_mail"
+		"item"		"item_tpscroll"
+
+	}
+}
+		
