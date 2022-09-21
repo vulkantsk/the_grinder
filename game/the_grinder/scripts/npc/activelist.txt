@@ -9,9 +9,12 @@
 	"npc_dota_hero_dragon_knight"			"1"			
 
 	"npc_dota_hero_phantom_assassin"			"1"			
-	"npc_dota_hero_juggernaut"			"1"			
+	"npc_dota_hero_juggernaut"			"1"	
+	"npc_dota_hero_spectre" "1"		
+	"npc_dota_hero_leshrac" "1"
 
 	"npc_dota_hero_lina"			"1"			
-	"npc_dota_hero_crystal_maiden"			"1"			
+	"npc_dota_hero_crystal_maiden"			"1"	
+	"npc_dota_hero_zuus" "1"		
 
 }

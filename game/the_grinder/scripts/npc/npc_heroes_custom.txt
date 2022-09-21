@@ -450,5 +450,131 @@
 		"VisionNighttimeRange"		"1000"
 		"VisionDaytimeRange"		"1500"
 	}
+	"npc_dota_hero_spectre"
+	{
+
+		"Ability1"		"spectre_spectral_dagger"
+		"Ability2"		"spectre_desolate"
+		"Ability3"		"spectre_dispersion"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"naga_siren_mirror_image"
+		"Ability7"					"generic_hidden"
+		"Ability8"					"generic_hidden"
+		"Ability10"		"special_bonus_hp_150"
+		"Ability11"		"special_bonus_movement_speed_25"
+		"Ability12"		"special_bonus_all_stats_10"
+		"Ability13"		"special_bonus_agility_15"
+		"Ability14"		"special_bonus_all_stats_15"
+		"Ability15"		"special_bonus_agility_25"
+		"Ability16"		"special_bonus_all_stats_20"
+		"Ability17"		"special_bonus_agility_40"
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"									// Speed of attack.
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"									// Speed of projectile.
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"									// Physical protection.
+		"MagicalResistance"			"25"									// Magical protection (percentage).
+
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"20"										// Base strength
+		"AttributeStrengthGain"		"2"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"10"										// Base intelligence
+		"AttributeIntelligenceGain"	"1.5"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"30"										// Base agility
+		"AttributeAgilityGain"		"3"										// Agility bonus per level.
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// Turning rate.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"				"200"									// Base health.
+		"StatusHealthRegen"			"1.5"									// Health regeneration rate.
+		"StatusMana"				"100"											// Base mana.
+		"StatusManaRegen"			"1"									// Mana regeneration rate.
+
+
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
+	"npc_dota_hero_zuus"
+	{
+
+		"Ability1"		"zuus_arc_lightning"
+		"Ability2"		"zuus_lightning_bolt"
+		"Ability3"		"zuus_heavenly_jump"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"zuus_cloud"
+		"Ability6"		"zuus_static_field"
+		"Ability7"					"generic_hidden"
+		"Ability8"					"generic_hidden"
+		"Ability10"		"special_bonus_hp_150"
+		"Ability11"		"special_bonus_movement_speed_25"
+		"Ability12"		"special_bonus_all_stats_10"
+		"Ability13"		"special_bonus_intelligence_15"
+		"Ability14"		"special_bonus_all_stats_15"
+		"Ability15"		"special_bonus_intelligence_25"
+		"Ability16"		"special_bonus_all_stats_20"
+		"Ability17"		"special_bonus_intelligence_75"
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"									// Speed of attack.
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"									// Speed of projectile.
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"									// Physical protection.
+		"MagicalResistance"			"25"									// Magical protection (percentage).
+
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"20"										// Base strength
+		"AttributeStrengthGain"		"2"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"30"										// Base intelligence
+		"AttributeIntelligenceGain"	"3"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"10"										// Base agility
+		"AttributeAgilityGain"		"1.5"										// Agility bonus per level.
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// Turning rate.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"				"200"									// Base health.
+		"StatusHealthRegen"			"1.5"									// Health regeneration rate.
+		"StatusMana"				"100"											// Base mana.
+		"StatusManaRegen"			"1"									// Mana regeneration rate.
+
+
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
 
 }

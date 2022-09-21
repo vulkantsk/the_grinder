@@ -3,9 +3,9 @@
 @REM название аддона
 set NAMECUSTOM=the_grinder
 @REM гит папка вашего аддона
-set PATHGIT=D:\documents\github\the_grinder
+set PATHGIT=C:\Users\b0150\Documents\GitHub\the_grinder
 @REM путь к доте
-set PATHGAME=D:\games\steam\steamapps\common\dota 2 beta
+set PATHGAME=C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta
 @REM добавочный путь для папки доты
 set SUFFIX=\content\dota_addons\
 set SUFFIX2=\game\dota_addons\
