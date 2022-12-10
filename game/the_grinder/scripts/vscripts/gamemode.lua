@@ -33,7 +33,10 @@ function GameMode:OnNPCSpawned(keys)
 		npc:AddItemByName("item_baseitem_1")
 		npc:AddItemByName("item_baseitem_1")
 		npc:AddItemByName("item_baseitem_1")
-	
+		
+		if name == "npc_dota_hero_queenofpain" then
+			npc:AddNewModifier(npc, nil, "modifier_item_aghanims_shard", {duration = -1})
+		end
 
 	elseif npc:IsRealHero() and npc.spawn_point then
 		npc:SetAbsOrigin(npc.spawn_point)
