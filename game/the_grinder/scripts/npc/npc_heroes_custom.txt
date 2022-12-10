@@ -9,14 +9,14 @@
 		"DisableWearables"			"1"// Отключить шмотки ?
 		"ModelScale"				"0.6"
 
-//		"Ability1"		"jacob_powerup_dmg"
-//		"Ability2"		"jacob_powerup_armor"
-//		"Ability3"		"jacob_powerup_hp"
-//		"Ability4"		"jacob_powerup_as"
-//		"Ability5"		"jacob_powerup_ms"
-//		"Ability6"		"jacob_infest" //ULT
-//		"Ability7"		"generic_hidden"
-//		"Ability8"		"generic_hidden"
+		//		"Ability1"		"jacob_powerup_dmg"
+		//		"Ability2"		"jacob_powerup_armor"
+		//		"Ability3"		"jacob_powerup_hp"
+		//		"Ability4"		"jacob_powerup_as"
+		//		"Ability5"		"jacob_powerup_ms"
+		//		"Ability6"		"jacob_infest" //ULT
+		//		"Ability7"		"generic_hidden"
+		//		"Ability8"		"generic_hidden"
 
 		"Ability10"		"special_bonus_exp_boost_10"
 		"Ability11"		"special_bonus_gold_income_60"
@@ -577,4 +577,68 @@
 		"VisionDaytimeRange"		"1500"
 	}
 
+	"npc_dota_hero_queenofpain"
+	{
+
+		"Ability1"		"queenofpain_shadow_strike"
+		"Ability2"		"queenofpain_blink"
+		"Ability3"		"queenofpain_scream_of_pain"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"queenofpain_sonic_wave"
+		"Ability7"					"generic_hidden"
+		"Ability8"					"generic_hidden"
+		"Ability10"		"special_bonus_attack_damage_20"
+		"Ability11"		"special_bonus_strength_11"
+		"Ability12"		"special_bonus_unique_queen_of_pain_4"
+		"Ability13"		"special_bonus_attack_speed_30"
+		"Ability14"		"special_bonus_unique_queen_of_pain_2"
+		"Ability15"		"special_bonus_unique_queen_of_pain_3"
+		"Ability16"		"special_bonus_unique_queen_of_pain_6"
+		"Ability17"		"special_bonus_unique_queen_of_pain_7"
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"		"24"
+		"AttackDamageMax"		"30"
+		"AttackRate"		"1.500000"
+		"AttackAnimationPoint"		"0.560000"
+		"AttackAcquisitionRange"		"800"
+		"AttackRange"		"550"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"									// Physical protection.
+		"MagicalResistance"			"25"									// Magical protection (percentage).
+
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"18"
+		"AttributeStrengthGain"		"2.4"
+		"AttributeBaseIntelligence"		"25"
+		"AttributeIntelligenceGain"		"3.400000"
+		"AttributeBaseAgility"		"22"
+		"AttributeAgilityGain"		"2.5"
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"355"									// Speed.
+		"MovementTurnRate"			"0.5"									// Turning rate.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"				"200"									// Base health.
+		"StatusHealthRegen"			"1.5"									// Health regeneration rate.
+		"StatusMana"				"100"											// Base mana.
+		"StatusManaRegen"			"1"									// Mana regeneration rate.
+
+
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
 }
